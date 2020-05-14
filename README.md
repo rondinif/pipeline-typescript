@@ -1,13 +1,13 @@
 <!-- why -->
 # project's drivers 
-I needed an simple anc basic example from which to learn how to create a [**build pipeline** on **azure devops**](https://docs.microsoft.com/it-it/azure/devops/pipelines/?view=azure-devops) from a **typescript project** , I didn't find any, I decided to create one myself
+I needed a simple and basic example from which to learn how to create a [**build pipeline** on **azure devops**](https://docs.microsoft.com/it-it/azure/devops/pipelines/?view=azure-devops) from a **typescript project** , I didn't find any, I decided to create one myself
 
 <!-- how -->
 # how this sample was born
 Luckily there is an [excellent guide](https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline) to create a similar thing for **javascript** projects  
 with its [source code on github](https://github.com/MicrosoftDocs/pipelines-javascript)
 
-and also [very simple and clear tutorials like this](https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c)) are available to take flight with typescript
+and also [a very simple and clear tutorials](https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c)) are available to take flight with typescript
 
 I simply put all togheter and I got one pipeline that works for typescript.
 
