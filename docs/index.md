@@ -3,7 +3,7 @@ Create your first pipeline for a typescript project
 
 <!-- why -->
 ## project's drivers 
-I needed a simple and basic example from which to learn how to create a [**build pipeline** on **azure devops**](https://docs.microsoft.com/it-it/azure/devops/pipelines/?view=azure-devops) from a **typescript project** , I didn't find any, I decided to create one myself
+I needed a simple and basic example from which to learn how to create a [**build pipeline** on **azure devops**](https://docs.microsoft.com/it-it/azure/devops/pipelines/?view=azure-devops) for a **typescript project** , I didn't find any, I decided to create one myself
 
 <!-- how -->
 ## how this sample was born
@@ -12,7 +12,7 @@ with its [source code on github](https://github.com/MicrosoftDocs/pipelines-java
 
 and also [a very simple and clear tutorials](https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c) are available to take flight with typescript
 
-I simply put all togheter and I got one pipeline that works for typescript.
+I simply put all togheter and I got one pipeline that works for typescript; after all it is a very normal **npm build**;  `pipeline-typescript` simply shows that nothing substantial changes compared to the example provided for `pipelines-javascript`
 
 ## how to 
 - [build and test on your machine](./build-and-test-on-ide.md)
@@ -56,5 +56,5 @@ with respect to commmit e34dc460c1562d3e9a5cd746dd89d6805fcc8b6b of [pipelines-j
         - .gitignore ( + `'target'` )
         - package.json ( `"main": "target/index.js"`, `"build": "tsc"`, `"test": "jest"` and removed gulp,mocha,nyc deps that aren't used by this typescript sample )
 
-## Licence
+## License
 MIT
