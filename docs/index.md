@@ -10,7 +10,7 @@ I needed a simple and basic example from which to learn how to create a [**build
 Luckily there is an [excellent guide](https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline) to create a similar thing for **javascript** projects  
 with its [source code on github](https://github.com/MicrosoftDocs/pipelines-javascript)
 
-and also [a very simple and clear tutorials](https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c)) are available to take flight with typescript
+and also [a very simple and clear tutorials](https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c) are available to take flight with typescript
 
 I simply put all togheter and I got one pipeline that works for typescript.
 
@@ -27,7 +27,7 @@ For information on how to set up a pipeline for this repository, see [Create you
 
 <!-- what -->
 ## what's changing from  [pipelines-javascript](https://github.com/MicrosoftDocs/pipelines-javascript)
-with respect to commmit e34dc460c1562d3e9a5cd746dd89d6805fcc8b6b of [pipelines-javascript](https://github.com/MicrosoftDocs/pipelines-javascript) these are the main changes made to rise [pipelines-javascript](https://github.com/rondinif/pipelines-typescript):
+with respect to commmit e34dc460c1562d3e9a5cd746dd89d6805fcc8b6b of [pipelines-javascript](https://github.com/MicrosoftDocs/pipelines-javascript) these are the main changes made to rise [pipeline-typescript](https://github.com/rondinif/pipeline-typescript):
 - node modules ( packages )
     - added as dev dependecies ( `see package.json`)
         - `npm install --save-dev typescript`
